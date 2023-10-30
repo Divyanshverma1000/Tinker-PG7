@@ -1,0 +1,35 @@
+Video Streaming Endpoints:
+
+/video-stream: For streaming live video from the camera.
+/audio-stream: If you plan to implement two-way audio communication.
+Motion Detection Endpoints:
+
+/motion-detection-start: To start motion detection.
+/motion-detection-stop: To stop motion detection.
+/motion-events: To retrieve information about detected motion events.
+Recording Endpoints:
+
+/start-recording: To initiate video recording when motion is detected or manually triggered.
+/stop-recording: To stop video recording.
+/recordings: To retrieve a list of recorded videos.
+Cloud Storage Endpoints:
+
+/upload-to-cloud: To upload recorded videos and images to a cloud storage service.
+/cloud-storage-config: To configure cloud storage settings, such as credentials and options.
+User Authentication and Account Management:
+
+/register: To create a new user account.
+/login: To authenticate and log in users.
+/logout: To log out a user.
+/user-profile: To retrieve or update user profile information.
+Settings Endpoints:
+
+/app-settings: To configure application settings, such as video quality and motion detection sensitivity.
+/camera-settings: To adjust camera-related settings if necessary.
+Notification Endpoints:
+
+/notifications: To retrieve and manage notifications for users.
+General Information and Dashboard Endpoints:
+
+/system-info: To provide information about the system and the status of the application.
+/dashboard: To serve as the main dashboard for users to view live video, motion events, and other important information.

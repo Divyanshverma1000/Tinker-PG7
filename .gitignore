@@ -1,0 +1,8 @@
+
+door-camera-app/node_modules/
+door-camera-backend/node_modules/
+
+
+door-camera-app/.env
+door-camera-backend/.env
+node_modules/
